@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Perion Test</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+  <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<section class="container">
+  <div class="items">
+    
+    <div class="item item-left">
+      <button class="item__btn item__btn-left" data-modal="modal1" id="btn1">
+      </button>
+      <img alt="left-item" class="picture" src="/assets/left.webp">
+    </div>
+    
+    <div class="item item-middle">
+      <button class="item__btn item__btn-middle" data-modal="modal2" id="btn2">
+      </button>
+      <img alt="middle-item" class="picture" src="/assets/middle.webp">
+    </div>
+    
+    <div class="item item-right">
+      <button class="item__btn item__btn-right" data-modal="modal3" id="btn3">
+      </button>
+      <img alt="right-item" class="picture" src="/assets/right.webp">
+    </div>
+  </div>
+  
+  <div class="info info-dark">
+    <h1 class="title">Find your calm with our adaptogen infused range.</h1>
+    <div class="actions">
+      <a class="button button-dark" href="/home">ADD TO CART</a>
+      <p class="actions__title">TRIP</p>
+      
+      <div class="actions__details">
+        <p class="actions__about">FIND AT</p>
+        <span class="actions__sign">
+              +
+            </span>
+        <a class="actions__link" href="https://shorturl.at/F7VyM" target="_blank"> 3169 W
+          510 N <br> Salt Lake City, UT 84116</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="background"></div>
+<div class="bottom"></div>
+
+<div class="fs-modal" id="modal1">
+  
+  <section class="container-modal">
+    <div class="items-modal">
+      <div class="item">
+        <button class="close" data-modal="modal1">
+        </button>
+        <img alt="left-item" class="picture-modal" src="/assets/left.webp">
+      </div>
+    </div>
+    
+    <div class="info info-dark info-modal">
+      <h1 class="title">Find your calm with our adaptogen infused range.</h1>
+      <div class="actions">
+        <a class="button button-dark" href="/home">ADD TO CART</a>
+        <p class="actions__title">TRIP</p>
+        
+        <div class="actions__details">
+          <p class="actions__about">FIND AT</p>
+          <span class="actions__sign">
+              +
+            </span>
+          <a class="actions__link" href="https://shorturl.at/F7VyM" target="_blank"> 3169 W
+            510 N <br> Salt Lake City, UT 84116</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="background background__modal-first"></div>
+  <div class="bottom bottom__modal-first"></div>
+</div>
+
+<div class="fs-modal" id="modal2">
+  
+  <section class="container-modal">
+    <div class="items-modal">
+      <div class="item">
+        <button class="close" data-modal="modal1">
+        </button>
+        <img alt="left-item" class="picture-modal" src="/assets/middle.webp">
+      </div>
+    </div>
+    
+    <div class="info info-light info-modal">
+      <h1 class="title">Find your calm with our adaptogen infused range.</h1>
+      <div class="actions">
+        <a class="button button-light" href="/home">ADD TO CART</a>
+        <p class="actions__title">TRIP</p>
+        
+        <div class="actions__details">
+          <p class="actions__about">FIND AT</p>
+          <span class="actions__sign">
+              +
+            </span>
+          <a class="actions__link" href="https://shorturl.at/F7VyM" target="_blank"> 3169 W
+            510 N <br> Salt Lake City, UT 84116</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="background background__modal-second"></div>
+  <div class="bottom bottom__modal-second"></div>
+</div>
+
+<div class="fs-modal" id="modal3">
+  
+  <section class="container-modal">
+    <div class="items-modal">
+      <div class="item">
+        <button class="close" data-modal="modal1">
+        </button>
+        <img alt="left-item" class="picture-modal" src="/assets/right.webp">
+      </div>
+    </div>
+    
+    <div class="info info-light info-modal">
+      <h1 class="title">Find your calm with our adaptogen infused range.</h1>
+      <div class="actions">
+        <a class="button button-light" href="/home">ADD TO CART</a>
+        <p class="actions__title">TRIP</p>
+        
+        <div class="actions__details">
+          <p class="actions__about">FIND AT</p>
+          <span class="actions__sign">
+              +
+            </span>
+          <a class="actions__link" href="https://shorturl.at/F7VyM" target="_blank"> 3169 W
+            510 N <br> Salt Lake City, UT 84116</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="background background__modal-third"></div>
+  <div class="bottom bottom__modal-third"></div>
+</div>
+
+<div class="transition-layer" id="trans">
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.14.1/dist/gsap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
