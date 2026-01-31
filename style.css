@@ -28,7 +28,7 @@ h1, p {
     height: 88vh;
     transform: translate(-50%, -50%);
 
-    background-image: url('/assets/pexels-ithalu-907485.jpg');
+    background-image: url('./assets/pexels-ithalu-907485.jpg');
     background-size: cover;
     opacity: 0.6;
     border-radius: 24px;
